@@ -1,0 +1,9 @@
+<suite name="TestClculatorAPI" >
+
+    <test name = "UnitTesting">
+        <classes>
+            <class name="org.example.TestCalculatorAPI"></class>
+        </classes>
+    </test>
+
+</suite>
