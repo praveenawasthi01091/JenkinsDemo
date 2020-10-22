@@ -41,4 +41,11 @@ public class TestCalculatorAPI {
         res = calculatorAPI.addition(20,-2);
         Assert.assertEquals(res, 18, "Correct value with zero");
     }
+
+    @Test (priority =4)
+    public void TestMltiplicationWithNegativeValues()
+    {
+        res = calculatorAPI.multiplication(20,2);
+        Assert.assertEquals(res, 40, "Correct value with zero");
+    }
 }
