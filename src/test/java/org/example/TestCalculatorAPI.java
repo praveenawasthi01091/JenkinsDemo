@@ -48,4 +48,12 @@ public class TestCalculatorAPI {
         res = calculatorAPI.multiplication(20,2);
         Assert.assertEquals(res, 40, "Correct value with zero");
     }
+
+    @Test (priority =5)
+    public void TestSubstractionWithPositiveValues()
+    {
+        res = calculatorAPI.subtraction(20,2);
+        Assert.assertEquals(res, 18, "Correct value with zero");
+    }
+
 }
